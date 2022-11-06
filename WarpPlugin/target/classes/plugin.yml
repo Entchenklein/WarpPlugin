@@ -1,0 +1,29 @@
+name: WarpPlugin
+version: 3.0
+api-version: 1.15
+author: Entchenklein
+website: entchenklein100@gmail.com
+main: entchenklein.warpPlugin.main.Main
+depend:
+softdepend:
+commands:
+     saveWarps:
+          description:
+          usage:
+          permission:
+          aliases: [sW]
+     removeWarp:
+          description:
+          usage:
+          permission:
+          aliases: [rW]
+     addWarp:
+          description:
+          usage:
+          permission:
+          aliases: [aW]
+     warp:
+          description:
+          usage:
+          permission:
+          aliases: [w]
